@@ -41,8 +41,10 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+/*formating for the top nav
 /* Add a black background color to the top navigation */
 .topnav {
+    margin:0px;
     background-color: #333;
     overflow: hidden;
 }
