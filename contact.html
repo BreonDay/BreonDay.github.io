@@ -1,48 +1,46 @@
 <!DOCTYPE html>
- <html>
-  <!––made by Breon Day––>
- 	<head>	
- 		<title>Breon Day's Web portfolio</title>
- 		<!-- link to main stylesheet -->
- 		<link rel="stylesheet" type="text/css" href="/css/main.css">
-  	</head>
-  
-  	<body style="background-color:powderblue;">
-  		<img src ="imgs/test.png" alt="First image"  width="460" height="345">	
- 		<div class="topnav" id="myTopnav">
-   			<a href="index.html">Home</a>
-   			<a href="projects.html">Projects</a>
-   			<a class="active" href="contact.html">Contact</a>
- 			</div>
-  		<div class="container">
-      		<div class="blurb">
-          		<h1>This is the Contacts page there should be a form here!</h1>
- 				<p>A Programmer looking to become a frontend developer</a></p>
-     		</div><!-- /.blurb -->
- 		</div><!-- /.container -->
-   <form action="//formspree.io/breoncday@gmail.com" method="POST">
-   <fieldset>
-      <label for="name">Your name</label><br>
-      <input type="text" name="name" placeholder="Name" id="name" required>
-   </fieldset>
- <fieldset>
-      <label for="_replyto">Your email</label><br>
-      <input type="email" name="_replyto" placeholder="example@domain.com" id="_replyto" required>
- </fieldset>
- <fieldset>
-      <label for="message">Your message</label><br>
-      <textarea name="message" rows="10" cols="100" placeholder="Message" id="message" required></textarea>
- </fieldset>
-      <input class="hidden" type="text" name="_gotcha" style="display:none">
-      <input class="hidden" type="hidden" name="_subject" value="Message via http://domain.com">
-     <input class="button submit" type="submit" value="Send">
-</form>
- 		<footer>
-     		<ul>
-         		<li><a href="mailto:yodabreon@gmail.com">Email</a></li>
-         		<li><a href="https://github.com/BreonDay">Github</a></li>
- 			</ul>
- 		</footer>
-                                                    
- 	</body>
- </html>
+
+<!––made by Breon Day––>
+
+
+<title>Breon Day's Web portfolio</title>
+<!-- link to main stylesheet -->
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+
+
+<body style="background-color:gray;">
+  <div class="topnav" id="myTopnav">
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a class="active" href="contact.html">Contact</a>
+    </div>
+     <div class="contactForm" id="myContactform">
+      <form action="//formspree.io/breoncday@gmail.com" method="POST">
+        <fieldset>
+          <label for="name">Your name</label>
+          <br>
+          <input type="text" name="name" placeholder="Name" id="name" required>
+        </fieldset>
+        <fieldset>
+          <label for="_replyto">Your email</label>
+          <br>
+          <input type="email" name="_replyto" placeholder="example@domain.com" id="_replyto" required>
+        </fieldset>
+        <fieldset>
+          <label for="message">Your message</label>
+          <br>
+          <textarea name="message" rows="10" cols="100" placeholder="Message" id="message" required>
+          </textarea>
+        </fieldset>
+        <input class="hidden" type="text" name="_gotcha" style="display:none">
+        <input class="hidden" type="hidden" name="_subject" value="Message via http://domain.com">
+        <input class="button submit" type="submit" value="Send">
+      </form>
+    </div>
+</body>
+  <footer>
+    <ul>
+      <li><a href="mailto:yodabreon@gmail.com">Email</a></li>
+      <li><a href="https://github.com/BreonDay">Github</a></li>
+    </ul>
+  </footer>
