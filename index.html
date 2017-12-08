@@ -4,15 +4,13 @@
 
 <title>Breon Day's Web portfolio</title>
 <!-- link to main stylesheet-->
- 		<link rel="stylesheet" type="text/css" href="/css/main.css">
+<link rel="stylesheet" type="text/css" href="/css/main.css">
 
 <body style="background-color:gray">
   <div class="topbar" id="myTopbar">
     <div class="topnav" id="myTopnav">
       <a class="active" href="index.html">Home</a>
       <a href="projects.html">Projects</a>
-      <a href="contact.html">Contact</a>
-
     </div>
 
   </div>
@@ -30,17 +28,36 @@
       <p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.</p>
     </section>
   </main>
-
-
-
-  <footer>
-    <ul>
-      
-      <li><a href="https://www.linkedin.com/in/breon-day-a51a08154/">Linkedin</a></li>
-      <li><a href="https://github.com/BreonDay">Github</a></li>
-      <li>Phone:757-407-7994</li>
-      <li>Virginia Beach Virginia</li>
-    </ul>
-  </footer>
-
+  <div class="contactForm" id="myContactform">
+    <form action="//formspree.io/breoncday@gmail.com" method="POST">
+      <fieldset>
+        <label for="name">Your name</label>
+        <br>
+        <input type="text" name="name" placeholder="Name" id="name" required>
+      </fieldset>
+      <fieldset>
+        <label for="_replyto">Your email</label>
+        <br>
+        <input type="email" name="_replyto" placeholder="example@domain.com" id="_replyto" required>
+      </fieldset>
+      <fieldset>
+        <label for="message">Your message</label>
+        <br>
+        <textarea name="message" rows="10" cols="100" placeholder="Message" id="message" required>
+        </textarea>
+      </fieldset>
+      <input class="hidden" type="text" name="_gotcha" style="display:none">
+      <input class="hidden" type="hidden" name="_subject" value="Message via http://domain.com">
+      <input class="button submit" type="submit" value="Send">
+    </form>
+  </div>
 </body>
+<footer>
+  <ul>
+
+    <li><a href="https://www.linkedin.com/in/breon-day-a51a08154/">Linkedin</a></li>
+    <li><a href="https://github.com/BreonDay">Github</a></li>
+    <li>Phone:757-407-7994</li>
+    <li>Virginia Beach Virginia</li>
+  </ul>
+</footer>
