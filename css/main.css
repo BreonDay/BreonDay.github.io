@@ -153,3 +153,6 @@ ul.posts li {
 {
   style="background-color:LightGray;color:white;padding:20px;
 }
+.skills ul{
+  list-style-type: none;
+}
