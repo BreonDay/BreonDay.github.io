@@ -131,3 +131,20 @@ ul.posts li {
 .profile-img{
     border-radius: 50%;
 }
+.cont {
+    width: 300px;
+    height: 200px;
+
+    display: table;
+}
+.cont .wrapper {
+    display: table-cell;
+    vertical-align: middle;
+    border: solid 1px #000;
+}
+.cont img {
+
+    display: block;
+    margin: 0 auto;
+    
+    border-radius: 50%;
